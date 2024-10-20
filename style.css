@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0px;
+    font-size: 14.5px;
+    
+}
+body{
+    background-color: rgb(255, 225, 197);
+    background-blend-mode: luminosity;
+}
+/* Container Styles */
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.small-container {
+    background: rgb(247, 242, 243) ;
+    background-blend-mode: soft-light;    
+}
+
+.normal-container {
+    padding: 20px;
+}
+
+/* Left */
+.left-bar {
+    background-color: rgb(248, 248, 208);
+    width: 36%;
+}
+
+
+/* right */
+.right-bar {
+    background-color:rgb(248, 248, 208) ;
+    width: 36%;
+}
+
+
+/* Middle */
+
+.container .middle-bar {
+    display: block;
+    padding: 0 37% 0 37%;
+    
+}
+
+.container .middle-bar img {
+    object-fit: fill;
+    width: 100%;
+    height: 7.5%;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+/* Headings */
+h1 {
+    font-size: 2rem;
+    color:black;
+}
+h2{
+    font-size: 1.5rem;
+    color:grey;
+}
+
+h3{
+    font-size: 18px;
+    color:grey;
+}
+
+.container .middle-bar .simple {
+    padding: 35px 30px 25px 30px ;
+    background-color: white;
+}
+
+.container .middle-bar main {
+    padding: 0 30px 20px 30px;
+    background-color: white;
+}
+
+.container .middle-bar main p {
+    padding-bottom: 10px;
+    text-align: start;
+}
+
+/* Prepartion */
+
+.small-container .preparation h3{
+    padding: 30px 15px 5px 15px;
+    font-size: 0.95rem;
+}
+
+.small-container .preparation ul{
+    text-align: justify;
+    padding: 25px;
+    
+}
+.small-container .preparation ul li{
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+/* Ingredient */
+.ingredient {
+   padding: 15px 0 20px 0;
+   border-bottom: 1.5px solid;
+}
+
+.ingredient h2{
+    padding-bottom: 8px;
+}
+
+.ingredient ul {
+    padding-left: 20px;
+    line-height: 2;
+
+}
+.ingredient ul li {
+    padding: 0 10px 0 0;
+    text-align: left;
+}
+
+/* Instuction */
+.instruction {
+    padding: 15px 0 20px 0;
+   border-bottom: 1.5px solid;
+}
+
+.instruction h2{
+    padding-bottom: 10px;
+}
+
+.instruction ol {
+    padding-left: 20px;
+    line-height: 1.7;
+}
+
+.instruction ol li {
+    padding: 0 10px 10px 0;
+    text-align: left;
+}
+/* Nutrient */
+.nutrition {
+    padding: 15px 0 20px 0;
+} 
+
+.nutrition h2 {
+    padding-bottom: 10px;
+}
+
+.nutrition table {
+    line-height: 2.7;
+}
+
+.nutrition table tr {
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.nutrition table th {
+    display: table-cell;
+    text-align: center;
+    border-bottom: 3.5px solid;
+    padding: 15px 50px 15px 25px;
+   vertical-align: inherit;
+}
+
+.nutrition table td {
+    text-align: center;
+    border-bottom: 3.5px solid grey;
+    display: table-cell;
+   padding: 15px 50px 15px 25px;
+   vertical-align: inherit;
+}
